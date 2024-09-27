@@ -288,6 +288,22 @@ a {
     object-fit: cover;
 }
 
+.hero .carousel-item {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+
+
+
+
 @media (max-height:500px), 
 (max-width:500px)  {
     .hero .carousel {
