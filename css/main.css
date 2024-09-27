@@ -54,6 +54,17 @@ a {
   margin-right: 8px;
 }
 
+.header .cta-btn,
+.header .cta-btn:focus {
+  color: #363636;
+  background: #3fbbc0;
+  font-size: 14px;
+  padding: 8px 20px;
+  margin: 0 5px 0 30px;
+  border-radius: 4px;
+}
+
+
 
 /* Nav menu Desktop = Responsivo */
 @media (min-width:1200px) {
