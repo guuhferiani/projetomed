@@ -279,7 +279,7 @@ a {
 }
 /* FIM Menu Mobile - MEDIA 1199px  */
 
-/* ------ HERO  --------- */
+/* ------ HERO -- Carousel --------- */
 .hero {
   padding: 0;
 }
@@ -377,7 +377,12 @@ font-weight: 700;
   background: red;
 }
 
-
+@media (max-height:500px), 
+(max-width:500px)  {
+  .hero .carousel {
+      min-height: 100vh;
+  }
+}
 
 /*-------------------------------
 # Featured Services Section
@@ -447,7 +452,7 @@ font-weight: 700;
 
 section,
 .section {
-  color: ;
+  /* color: ; */
   background: #e0e0e0;
   padding: 60px 0;
 }
@@ -457,6 +462,11 @@ section,
   .section {
     scroll-margin-top: 100px;
   }
+}
+
+.accent-background {
+  background: #3fbbc0;
+  color: #e0e0e0;
 }
 
 /*--------------------------------
@@ -490,33 +500,46 @@ section,
   margin: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-height:500px), 
-(max-width:500px)  {
-  .hero .carousel {
-      min-height: 100vh;
-  }
+.section-title p {
+  margin-bottom: 0;
 }
+
+/* ---- About  ----- */
+.about .content h3 {
+  font-size: 1.75rem;
+  /* Multiplicar *16 ou Dividir /16 */
+  font-weight: 700;
+  color: #2293a0;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding: 10px 0 0 0;
+  display: flex;
+}
+
+.about .content ul i {
+  color: #00b0c4;
+  margin-right: 0.5rem;
+  line-height: 1.2;
+  font-size: 1.25rem;
+}
+
+
+
+
+
+.about .pulsating-play-btn {
+  position: absolute;
+  left: calc(50% - 47px);
+  top: calc(50% - 47px);
+}
+
+
+
+
 
