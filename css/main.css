@@ -13,6 +13,7 @@
   --nav-bg-topbar: #3fbbc0;
   --nav-color2: #ebebeb;
   --surface: #fff;
+  --accent-color: #3fbbc0;
 
 }
 
@@ -529,10 +530,6 @@ section,
   font-size: 1.25rem;
 }
 
-
-
-
-
 .about .pulsating-play-btn {
   position: absolute;
   left: calc(50% - 47px);
@@ -540,6 +537,14 @@ section,
 }
 
 
-
-
-
+/* Pulsating Play Button
+------------------------------*/
+.pulsating-play-btn {
+  width: 94px;
+  height: 94px;
+  background: radial-gradient(var(--accent-color) 50%, color-mix(in srgb, var(--accent-color), transparent 75%) 52%);
+  border-radius: 50%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
