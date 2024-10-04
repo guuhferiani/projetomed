@@ -13,6 +13,7 @@
   --nav-bg-topbar: #3fbbc0;
   --nav-color2: #ebebeb;
   --surface: #fff;
+
 }
 
 body {
@@ -378,6 +379,38 @@ font-weight: 700;
 
 
 
+/*-------------------------------
+# Featured Services Section
+-------------------------------------*/
+
+.featured-services .service-item {
+  background: #fff;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.featured-services .service-item .icon {
+  margin-bottom: 10px;
+}
+
+.featured-services .service-item .icon i {
+  color: #3fbbc0;
+  font-size: 36px;
+  transition: ease-in-out 0.3s;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -395,3 +428,4 @@ font-weight: 700;
       min-height: 100vh;
   }
 }
+
