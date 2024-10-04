@@ -403,6 +403,97 @@ font-weight: 700;
   transition: ease-in-out 0.3s;
 }
 
+.featured-services .service-item h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.featured-services .service-item h4 a {
+  color: red;
+}
+
+
+.featured-services .service-item p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.featured-services .service-item:hover h4 a,
+.featured-services .service-item:hover .icon i,
+.featured-services .service-item:hover p {
+  color: whitesmoke;
+}
+
+.featured-services .service-item:hover:before { 
+  background:  #3fbbc0;
+  inset: 0;
+  border-radius: 0px;
+}
+
+.featured-services .service-item:before {
+  content: "";
+  position: absolute;
+  background:  #266e70;
+  z-index: -1;
+  inset: 100% 0 0 0 ;
+  transition: all 0.5s;
+}
+
+/*----------------------------
+# Global Sections
+-------------------------*/
+
+section,
+.section {
+  color: ;
+  background: #e0e0e0;
+  padding: 60px 0;
+}
+
+@media (max-width: 1199px) {
+  section,
+  .section {
+    scroll-margin-top: 100px;
+  }
+}
+
+/*--------------------------------
+# Global Section Titles - titulos
+----------------------------------------*/
+
+.section-title {
+  text-align: center;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-title h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: black;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+
+
+
+
 
 
 
