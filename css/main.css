@@ -1,4 +1,12 @@
 
+/* Google Fonts */
+:root{
+  --defaut-font: "Roboto", serif;
+  /* fonte padrao */
+  --heading-font: "Protest Strike", sans-serif;   /* titulos */
+  --nav-font: "Roboto", sans-serif;     /* navegações / Menu */
+}
+
 :root {
   --background-color: #ebebeb;
   --nav-fundo: #dbdbdb;
@@ -615,3 +623,35 @@ section,
     opacity: 0;
   }
 }
+
+/*  STATUS  */
+
+.stats .stats-item {
+  background-color: var(--background-color);
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+
+.stats .stats-item i {
+  color: var(--accent-color);
+  font-size: 42px;
+  line-height: 0;
+  margin-right: 20px;
+}
+
+.stats .stats-item span {
+  color: var();
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+}
+
+.stats .stats-item p {
+  padding: 0;
+  margin: 0;
+  font-family: var(--defaut-font);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
