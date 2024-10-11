@@ -1,7 +1,7 @@
 
 /* Google Fonts */
 :root{
-  --defaut-font: "Roboto", serif;
+  --defaut-font: "Roboto", sans-serif;
   /* fonte padrao */
   --heading-font: "Protest Strike", sans-serif;   /* titulos */
   --nav-font: "Roboto", sans-serif;     /* navegações / Menu */
@@ -655,3 +655,53 @@ section,
 }
 
 
+/*  Scroll Top Button */
+.scroll-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 99999;
+  background-color: var(--accent-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.scroll-top i {
+  font-size: 24px;
+  color: whitesmoke;
+  line-height: 0;
+}
+
+.scroll-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.scroll-top:hover{
+  background:  #b6e7e9;
+}
+
+.scroll-top:hover i{
+  color: #3fbbc0;
+}
+
+/* Features // Caracteristicas  */
+
+.features .features-image {
+  position: relative;
+  min-height: 400px;
+}
+
+.features .features-image img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
