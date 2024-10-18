@@ -712,7 +712,7 @@ section,
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  /* color: ;  opcional */
+  color: #2293a0;
   /* font-family:  ;  opcional */
 }
 
@@ -726,4 +726,117 @@ section,
   left: 0;
   bottom: 0;
 }
+
+.features .icon-box {
+  margin-top: 50px;
+}
+
+.features .icon-box i {
+  color: #00cdcd;
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+  font-size: 28px;
+  width: 56px;
+  height: 56px;
+  border-radius: 4px;
+  line-height: 5;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.features .icon-box:hover i {
+  background-color: #00cdcd;
+  color: whitesmoke;
+}
+
+.features .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.features .icon-box h4 a {
+  color: #13b6bc;
+  transition: 0.3s;
+}
+
+.features .icon-box h4 a:hover {
+  color: #0d8084;
+}
+
+.features .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+/* # Services Section */
+
+.services .service-item {
+  text-align: center;
+  padding: 20px;
+  transition: all ease-in-out 0.3s;
+  height: 100%;
+}
+
+.services .service-item .icon {
+  background: whitesmoke;
+  color: #3fbbc0;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+  transition: ease-in-out 0.3s;
+  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.3);
+}
+
+.services .service-item h3 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  font-size: 22px;
+  transition: 0.3s;
+  position: relative;
+  color: #272727;
+  /* 
+  font-family: ; 
+   */
+}
+
+.services .service-item h3:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #00cdcd;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.services .service-item p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .service-item:hover .icon {
+  box-shadow: 0px 0 40px rgba(11, 171, 234, 0.6);
+}
+
+.services .service-item:hover h3 {
+  color: #2293a0;
+}
+
+
+
+
 
