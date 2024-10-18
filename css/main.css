@@ -836,7 +836,42 @@ section,
   color: #2293a0;
 }
 
+/* Consulta // Forms  */
 
+.consulta .email-form {
+  width: 100%;
+}
+
+.consulta .email-form .form-group { 
+  padding-bottom: 8px;
+
+}
+
+.consulta .email-form input,
+.consulta .email-form textarea,
+.consulta .email-form select {
+  color: #017e8c;
+  background: whitesmoke;
+  /* border-color: ; */
+  /* border-radius: 0; */
+  box-shadow: none;
+  font-size: 14px;
+  padding: 10px !important;
+}
+
+.consulta .email-form input::placeholder,
+.consulta .email-form textarea::placeholder,
+.consulta .email-form select::placeholder {
+  color: color-mix(in srgb, #0c7a7d, transparent 50%);
+  /* color: red; */
+}
+
+/* Quando o Input for selecionado */
+.consulta .email-form input:focus,
+.consulta .email-form textarea:focus,
+.consulta .email-form select:focus {
+  border-color: #00cdcd;
+}
 
 
 

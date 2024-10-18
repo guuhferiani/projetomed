@@ -622,16 +622,64 @@
           <div class="row">
             <!-- Nome  -->
             <div class="col-md-4 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome Completo" required="">
+              
+              <input type="text" name="name" class="form-control" id="name" placeholder="Nome Completo *" required>
+            
             </div>
 
             <!-- Email -->
             <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" required="">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email *" required>
             </div>
 
-          </div> <!-- fim row Forms -->
+            <!-- Telefone -->
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Seu Telefone *" required>
+            </div>
+          
+          </div> <!-- fim row Forms Etapa 1-->
 
+          <!-- Etapa 2 -->
+          <div class="row">
+            
+            <!-- data e hora -->
+            <div class="col-md-4 form-group mt-3">
+              <input type="datetime-local" name="date" class="form-control datepicker" id="date" placeholder="Data e Hora da Consulta" required>
+            </div>
+
+            <!-- Departamentos / Area -->
+            <div class="col-md-4 form-group mt-3">
+              <select name="department" id="department" class="form-select" required>
+
+                <option value="">Selecione o Especialista</option>
+                <option value="Especialista 1">Cardiologia</option>
+                <option value="Especialista 2">Pediatria</option>
+                <option value="Especialista 3">Neurologia</option>
+
+              </select>
+            </div>
+
+            <div class="col-md-4 form-group mt-3">
+              <select name="doctor" id="doctor" class="form-select" required>
+
+                <option value="">Selecione o(a) Médico(a)</option>
+                <option value="Doctor 1">Dr. Silva</option>
+                <option value="Doctor 2">Dra. Oliveira</option>
+                <option value="Doctor 3">Dra. Costa</option>
+
+              </select>
+            </div>
+
+          </div> <!-- fim Row 2 Etapa - 2-->
+
+          <!-- Campo Mensagem -->
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Mensagem (Opcional)">
+
+            </textarea>
+          </div>
+          
+          <!-- Botao de Enviar -->
           <div class="mt-3">
             <div class="text-center">
               <button type="submit"> Agendar Consulta </button>
