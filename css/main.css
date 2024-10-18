@@ -873,5 +873,27 @@ section,
   border-color: #00cdcd;
 }
 
+.consulta .email-form input, 
+.consulta .email-form select {
+  height: 44px;
+}
 
+.consulta .email-form textarea {
+  padding: 10px 12px;
+}
+
+.consulta .email-form button {
+  background: #00a2b4;
+  color: whitesmoke;
+  border: 0;
+  padding: 10px 35px;
+  font-size: 20px;
+  transition: 0.4s;
+  border-radius: 6px;
+}
+
+.consulta .email-form button:hover {
+  background: #4bbac6;
+  /* color: ; */
+}
 
