@@ -962,6 +962,14 @@ section,
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
+  /* color: ; OPCIONAL */
+}
+
+.doctors .team-member .member-info span {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  /* color: ; OPCIONAL */
 }
 
 
@@ -1035,6 +1043,38 @@ section,
   color: #01d2e9;
 }
 
+/* Contato */
+.contato .info-item {
+  background: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  padding: 24px 0 30px 0;
+}
+
+.contato .info-item i { 
+  color: #0d8084;
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+  border: 2px dotted #0d8084;
+}
+
+.contato .info-item h3 {
+  font-size: 20px;
+  color: #383838;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.contato .info-item p {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
 
 /* Responsivos  */
 
