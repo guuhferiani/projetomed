@@ -477,7 +477,7 @@ section,
 }
 
 .accent-background {
-  background: #3fbbc0;
+  background: #36a1a5;
   color: #e0e0e0;
 }
 
@@ -497,6 +497,7 @@ section,
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  color: #00a2b4;
 }
 
 .section-title h2:after {
@@ -899,6 +900,71 @@ section,
   background: #4bbac6;
   /* color: ; */
 }
+
+.doctors .team-member { 
+  background: #efefef;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.doctors .team-member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.doctors .team-member .social { 
+  position: absolute; /* era o unico */
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+}
+
+.doctors .team-member .social a { 
+  background: whitesmoke;
+  color: black;
+  margin: 0 3px;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  transition: ease-in-out 0.3s;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.doctors .team-member .social a:hover { 
+  color: #fff;
+  background: #01d2e9;
+}
+
+
+.doctors .team-member .member-info {
+  padding: 25px 15px;
+  /* text-align: center; */
+}
+
+.doctors .team-member:hover .social {
+  opacity: 1;
+  bottom: 15px;
+}
+
+.doctors .team-member .social i {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.doctors .team-member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+
 
 /*  FAQ  */
 
